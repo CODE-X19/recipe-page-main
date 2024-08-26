@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Outfit';
+    background-color: #f3e5d8;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    min-height: 100vh;
+}
+p{
+    font-size: .5rem;
+}
+span{
+    font-size:.5rem;
+}
+li{
+    font-size: .5rem;
+}
+
+main{
+background-color: #fff;
+max-width: 21rem;
+border-radius: .3rem;
+}
+
+img{
+    max-width: 19rem;
+    border-radius: .5rem;
+}
+.card{
+    display: grid;
+    padding: 1rem 0 1rem 1rem;
+    justify-content: center;
+}
+h1{
+    font-family: 'Young Serif';
+    font-size: 1rem;
+    margin: .8rem 0;
+    font-weight: lighter;
+}
+.write{
+    font-size: .43rem;
+    width: 17rem;
+    color: #3b3a3a;
+    margin-bottom: .7rem;
+}
+.sub{
+    background-color: #fff7fc;
+    padding: .4rem 0 .4rem 1rem;
+    font-size: .3rem;
+    width: 19rem;
+    border-radius: .4rem;
+}
+.sub-heading{
+    font-size: .5rem;
+    font-weight: bold;
+    color: #a3255e;
+}
+.prepsration{
+    margin: .1rem 0 .1rem .8rem;
+}
+
+ .sub ul li{
+    padding: .05rem;
+    
+ }
+ .sub ul li::marker{
+    color: #a3255e;
+    font-size: .3rem;
+ }
+ .sub ul li span{
+    font-weight: bold;
+    font-size: .4rem;
+ }
+
+ .Ingredients-sub{
+    font-family: 'Young Serif';
+    font-size: .8rem;
+    margin: .5rem 0 0 .5rem;
+    font-weight: lighter;
+    color: #7e412c;
+
+ }
+ .Ingredients{
+    
+    margin: .5rem 1rem
+ }
+ .Ingredients li{
+    font-size: .43rem;
+    padding: .1rem;
+ }
+ .Ingredients li::marker{
+    color: #a3255e;
+    font-size: .3rem;
+ }
+hr{
+    width: 19rem;
+    border: 0;
+    height: .2px;
+    background-color: #c2bfbf;
+}
+ .instruction-sub{
+    font-family: 'Young Serif';
+    font-size: .8rem;
+    margin: .5rem 0 0 .5rem;
+    font-weight: lighter;
+    color: #7e412c;
+ }
+ .Instructions{
+    margin: .5rem 1rem 
+ }
+ .Instructions li{
+    font-size: .43rem;
+    padding: .1rem;
+    list-style-type:decimal;
+ }
+ 
+ .Instructions li::marker{
+    color: #a3255e;
+    font-size: .4rem;
+    font-weight: bold;
+    padding-left: .9rem;
+ }
+ .Instructions li span{
+    font-weight: bold;
+ }
+
+ .Nutrition-sub{
+    font-family: 'Young Serif';
+    font-size: .8rem;
+    margin: .5rem 0 0 .5rem;
+    font-weight: lighter;
+    color: #7e412c;
+ }
+
+ .Nutrition{
+   font-size: .43rem;
+   margin: .5rem; 
+ }
+ .nutrient-table{
+    display: flex;
+    justify-content: space-between;
+    padding: .35rem;
+    margin-right: 10rem;
+ }
+ .nutrient-g{
+    color: #7e412c;
+    font-weight: bold;
+   
+ }
